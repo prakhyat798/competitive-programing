@@ -1,0 +1,5 @@
+A = input("Enter a number: ")
+if A == A[::-1]:   # reverse string using slicing
+    print("Yes")
+else:
+    print("No")
